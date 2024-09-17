@@ -1,0 +1,315 @@
+.fondo{    
+    width: 100%; /* Ancho completo */
+    height: 50vh; /* 50% de la altura de la ventana del navegador */
+    background-image: url("../Img_porfolio/fondo.png");
+    background-size:100% 100%;
+    /*/opacity: 0.5;*/
+    
+}
+
+.cuadradoazulmenu{
+    background-color: rgb(57, 135, 238);
+    width: 100%; /* Ancho completo */
+    height: 10%;
+    background-size:100% 100%;
+    position: fixed; /* Fija el menú en su posición */
+    top: 0; /* Posiciona en la parte superior */
+    left: 0; /* esto alinea a la izquierda */
+    z-index: 1000; /* Esto debe estar por encima de otros elementos */
+}
+.contenido{
+    margin-top: 70px; /* Añade un margen superior para evitar que el contenido quede oculto detrás del menú */
+    height: 800px; /* Solo para demostrar el scroll */
+}
+
+.contetData{
+   margin-top: -21.3%; 
+   z-index: 1;
+}
+
+.contetData .contentTitle{
+    margin-bottom: 80px;
+}
+
+.contentTitle2{
+    margin-bottom: 20px;
+}
+
+.cajafoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+.foto{
+    width: 10%;
+    height: auto;
+    align-items: center;
+    border: 2px solid rgb(245, 246, 248);
+    /*stroke: blue;*/
+    border-radius: 100%;
+    z-index: 100;
+}
+
+.cajamenu{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:white;
+    margin-right: 20px;
+    padding-bottom: 60px;
+    width: 500px;
+
+}
+nav ul li{
+    background-color: transparent;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 300px;
+    font-family:sans-serif;
+    font-weight: 700;
+    width: 20%;
+    list-style: none;
+    margin-top: 5px;
+}
+
+nav a:link {
+    /*color: #ffffff;*/
+    color: black;
+}
+  /* visited link */
+nav a:visited {
+    /*color: #fff;*/
+}
+  /* mouse over link */
+nav a:hover {
+    color: rgb(10, 241, 22)
+}
+  /* selected link */
+nav a:active {
+    color: hsl(0, 84%, 49%);
+}
+
+.contenedorfabian{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+       
+}
+.nombre{
+    text-align: center;
+    margin-top: 110px;
+    color: white;
+}
+.nombre2{
+    text-align: center;
+    margin-top: -20px;
+    font-family:sans-serif;
+    color: white;
+
+}
+.parrafo{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 20px;
+}
+.acercademi{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blue;
+}
+.parrafodemi{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.subrayado {
+    text-decoration: underline;
+}
+
+.logo{
+   margin-top: -7px;
+    padding: 10px;
+    text-align:center;
+    color: #FFFDFD;
+    font-size: 12px;
+    word-wrap: break-word">
+}
+
+main{
+    position: absolute;
+    top: 20%
+}
+
+.contenedor_AESA_DIA{   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20%;
+}
+.contenedor_AESA{
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+}
+.contenedor_AESA img{
+    width: 40%;
+    height: auto;
+}
+.contenedor_DIA{
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+}
+.contenedor_DIA img{
+    width: 40%;
+    height: auto;
+} 
+
+.contenedor_CaroCuore_Interpack{   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20%;
+}
+.contenedor_CaroCuore{
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+}
+.contenedor_CaroCuore img{
+    width: 40%;
+    height: auto;
+}
+.contenedor_Interpack{
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+}
+.contenedor_Interpack img{
+    width: 40%;
+    height: auto;
+}
+
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color:  rgb(57, 135, 238);
+}
+
+.contenedor_formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 600px; /* Ancho del contenedor */
+}
+
+.campo_input{
+    width: calc(35% - 15px);
+    padding: 20px;
+    margin-left: 115px;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+}
+
+.area_texto {
+    width: calc(100% - 20%);
+    height: 150px;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 115px;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+}
+
+.contenedor_boto{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.boton_enviar{
+    background-color: #007BFF; /* Color de fondo azul */
+    width: 100px;
+    height: 40px;
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    /*padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+.tamaño_icons{
+    width: 50px; /* Ajusta el tamaño de los íconos */
+    height: 50px;
+}
+.contenedor_footer{
+    display: flex;
+    justify-content:space-around; 
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding: 10px 20px;
+}
+.name div{
+    font-size: 15px;
+    color:#007BFF;
+}
+.name span{
+    font-size: 13px;
+    color:#007BFF;
+}
+.social-icons {
+    display: flex;
+    gap: 10px; /* Espacio entre los íconos */
+}
+.social-icons a img {
+    width: 30px; /* Ajusta el tamaño de los íconos */
+    height: 30px;
+}
+@media (max-width: 600px){
+    ul{
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: center;
+           
+    }
+
+}
+@media (max-width: 600px) {
+  
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
